@@ -1,0 +1,32 @@
+=== RUNNING APP ====
+// run server
+node index.js
+
+// run client app
+$ cd client
+$ npm start
+
+
+====== NVM ========
+// 1. NVM Install
+npm i -g nvm
+
+// 2. List installed versions
+nvm list
+
+// 2. Get current version
+nvm current
+
+// 3. Install latest version
+nvm install latest
+
+// 4. set current version to latest (cmd with admin rigts/sudo)
+nvm use VERSION_NUMBER
+
+// 5. Remove old version, if no longer needed
+nvm remove VERSION_NUMBER
+
+nvm uninstall OLD_VERSION
+
+// 6. Install the LTS version 
+nvm install lts
